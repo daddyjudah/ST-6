@@ -107,9 +107,7 @@ class Game {
         board[move_list.get(0)] = player.symbol;
         symbol = player.symbol;
 
-
         int val = MinMove(board, player);
-
 
         if (val > best_val) {
             best_val = val;
