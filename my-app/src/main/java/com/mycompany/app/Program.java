@@ -14,7 +14,6 @@ import java.io.IOException;
 
 enum State { PLAYING, OWIN, XWIN, DRAW };
 
-
 class Player {
   public char symbol;
   public int move;
